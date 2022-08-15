@@ -1,0 +1,37 @@
+
+<div class="container pt-5">
+
+  <h1 class="mb-5">Stupid Coaching</h1>
+  <h2 class="mb-5">Ask your coach anything:</h2>
+
+
+
+  <form action="/answer" data-turbo="false" method="get">
+    <div class="d-flex align-items-center justify-content-center mw-100">
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="ask me anything" name="question">
+        <input type="submit" class="input-group-text btn btn-primary" value="Ask!" />
+      </div>
+    </div>
+  </form>
+
+  <%= console %>
+</div>
+
+
+<%# <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <div class="mt-4">
+  <h2 class="text-md mt-2">Ask your coach anything:</h2>
+  <form action="/answer" class="flex flex-wrap w-full" method="get" data-turbo="false">
+  <input type="text" class="border rounded-md py-3 px-2 w-11/12" name="text"/>
+  <input type="submit" class="rounded-md bg-blue-500 p-3 w-1/12 text-white text-md" value="Ask"/>
+</form></div>
+</html> %>

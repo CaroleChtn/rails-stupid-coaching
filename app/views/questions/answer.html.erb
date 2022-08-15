@@ -1,0 +1,11 @@
+<div class = "container justify-center pt-5">
+  <h1>Stupid Coaching</h1>
+
+  <div class="mt-8 border-l-4 pl-2 text-xl"><%= @question %></br>
+    <span class="text-lg italic text-gray-400">— You</span>
+  </div>
+
+  <div class="mt-6 border-l-4 pl-2 text-xl font-bold"><%= @answer %></br>
+    <span class="text-lg italic text-gray-400">— Your coach</span></br>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
